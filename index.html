@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portifólio</title>
+</head>
+
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpeg" alt="foto de perfil">
+            <h1 class="nome"> Marlon Almeida Mousquer</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado " id="sobre-min">
+                    <img src="./src/imagens/sobre.gif" alt="icone de sobre min">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="icone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-min">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>
+                            Oi meu nome é Marlon Almeida Mousquer, seja bem vindo(a)!
+                        </p>
+                        <p>
+                            Desde da adolecencia gostava da área de tecnologia, jogar video games foi a forma de eu adquirir esse interesse.
+                            Terminei o Curso de Ciencia da Computação ao final de 2021, e atualamente tenho buscado me aperfeiçoar para adquirir mais oportunidades na área.
+                            Durante o Curso utilizei as linguagens <span>Java, C++, C# </span> para desenvolvimento dos projetos.
+                            As principais linguagens que tenho estudado são <span>HTML, CSS e JavaScript </span> buscando iniciar no mercado como Desenvolvedor FrontEnd.
+                            Essa pagina foi desenvolvida como um mini portifólio, atraves do evento Mapa Dev Week do  canal Dev em Dobro.
+                            Nas horas vagas os meus principais hobbies são jogar video games , asssitir animes ,series e desenhar.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo"> Minhas Redes</h3>
+                    <ul class="redes-sociais">
+                        <li>
+                            <!--link para o meu curriculo -->
+                            <a href="" target="_blank" class="curriculo"> Currículo </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/marlon-almeida-mousquer " target="_blank " class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/marlon101tkm " target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js "></script>
+</body>
+
+</html>
