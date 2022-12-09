@@ -1,3 +1,3 @@
 # Mini Portfolio
 
-Link: https://marlon101tkm.github.io/mini-portfolio/
+Link: [Mini Portifolio][https://marlon101tkm.github.io/mini-portfolio/]
