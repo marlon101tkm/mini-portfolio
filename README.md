@@ -1,6 +1,6 @@
 # Mini Portfolio
 
-Uma pagina de portifolio simples criada a partir do Evento Mapa Dev Week do Canal Dev em Dobro
+Uma pagina de portfolio simples criada a partir do Evento Mapa Dev Week do Canal Dev em Dobro
 
 Link: [Mini Portifolio][MiniPortifolio] 
 
